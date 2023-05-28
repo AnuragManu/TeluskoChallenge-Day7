@@ -59,7 +59,7 @@ Here's an example usage of the TinyUrlGenerator class:
 
 ```java
 TinyUrlGenerator urlGenerator = new TinyUrlGenerator();
-String fullUrl = "https://www.example.com";
+String fullUrl = "https://courses.telusko.com/learn/Live-Java-Course";
 String tinyUrl = urlGenerator.createTinyUrl(fullUrl);
 System.out.println("Tiny URL: " + tinyUrl);
 String retrievedUrl = urlGenerator.getFullUrl(tinyUrl);
